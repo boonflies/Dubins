@@ -375,8 +375,8 @@ class UAV_Calc(object):
         # self.z_target.pop()
         # self.position_UAV.pop()
         # self.position_target.pop()
-        UAV_one.tangent_exit_pt()
-        UAV_one.next_waypoint_after_Dubins_UAV() # computing and updating UAV position after following Dubin's safety path
+        self.tangent_exit_pt()
+        self.next_waypoint_after_Dubins_UAV() # computing and updating UAV position after following Dubin's safety path
         self.algorithm.append('dubins')
 
 
@@ -387,7 +387,7 @@ class UAV_Calc(object):
             self.linear_algorithm()
             while not self.check_obstacle():
                 self.dubins()
-                UAV_one.target_position()   # update Target position
+                self.target_position()   # update Target position
 
             i += 1
 
