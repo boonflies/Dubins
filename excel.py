@@ -11,7 +11,6 @@
 import xlsxwriter
 import xlrd
 
-
 def excel_write(x_UAV, y_UAV, z_UAV, UAV_heading, UAV_bearing, x_target, y_target, z_target,
     target_heading, target_bearing, distance, distance_obs, algorithm):
 
@@ -95,8 +94,8 @@ def excel_write(x_UAV, y_UAV, z_UAV, UAV_heading, UAV_bearing, x_target, y_targe
 
 
 
-def excel_read():
-        workbook = xlrd.open_workbook('Target_Positions.xlsx')
+def excel_read(filename):
+        workbook = xlrd.open_workbook(filename)
         worksheet = workbook.sheet_by_name('Sheet1')
         row_start = 2   # start the row count from 1 as in excel
         row_end = len(worksheet.col_values(0))

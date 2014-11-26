@@ -1,0 +1,125 @@
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 28, in <module>
+  File "matplotlib\style\__init__.pyc", line 3, in <module>
+  File "matplotlib\style\core.pyc", line 149, in <module>
+  File "matplotlib\style\core.pyc", line 94, in load_base_library
+  File "matplotlib\style\core.pyc", line 126, in read_style_directory
+  File "matplotlib\style\core.pyc", line 115, in iter_style_files
+WindowsError: [Error 3] The system cannot find the path specified: u'C:\\Documents and Settings\\Integration Lab\\Desktop\\GUI\\dist\\mpl-data\\stylelib\\*.*'
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "zipextimporter.pyo", line 74, in load_module
+  File "matplotlib\pyplot.pyo", line 109, in <module>
+  File "matplotlib\backends\__init__.pyo", line 32, in pylab_setup
+ImportError: No module named backend_tkagg
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "zipextimporter.pyo", line 74, in load_module
+  File "matplotlib\pyplot.pyo", line 109, in <module>
+  File "matplotlib\backends\__init__.pyo", line 32, in pylab_setup
+ImportError: No module named backend_tkagg
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "zipextimporter.pyo", line 74, in load_module
+  File "matplotlib\pyplot.pyo", line 109, in <module>
+  File "matplotlib\backends\__init__.pyo", line 32, in pylab_setup
+ImportError: No module named backend_tkagg
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+ImportErrorImportError: No module named backend_tkagg
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+  File "matplotlib\backends\backend_tkagg.pyc", line 7, in <module>
+  File "six.pyc", line 194, in load_module
+  File "six.pyc", line 108, in _resolve
+  File "six.pyc", line 79, in _import_module
+ImportError: No module named FileDialog
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+  File "matplotlib\backends\backend_tkagg.pyc", line 7, in <module>
+  File "six.pyc", line 194, in load_module
+  File "six.pyc", line 108, in _resolve
+  File "six.pyc", line 79, in _import_module
+ImportError: No module named FileDialog
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+  File "matplotlib\backends\backend_tkagg.pyc", line 7, in <module>
+  File "six.pyc", line 194, in load_module
+  File "six.pyc", line 108, in _resolve
+  File "six.pyc", line 79, in _import_module
+ImportError: No module named FileDialog
+Traceback (most recent call last):
+  File "GUI.py", line 11, in <module>
+ImportError: No module named mpl_toolkits.mplot3d
+Traceback (most recent call last):
+  File "GUI.py", line 10, in <module>
+  File "matplotlib\pyplot.pyc", line 109, in <module>
+  File "matplotlib\backends\__init__.pyc", line 32, in pylab_setup
+  File "matplotlib\backends\backend_tkagg.pyc", line 7, in <module>
+  File "six.pyc", line 194, in load_module
+  File "six.pyc", line 108, in _resolve
+  File "six.pyc", line 79, in _import_module
+ImportError: No module named FileDialog
+Traceback (most recent call last):
+  File "GUI.py", line 202, in PlotShow
+  File "GUI.py", line 68, in __init__
+  File "GUI.py", line 32, in __init__
+  File "GUI.py", line 35, in extract_tracking
+  File "GUI.py", line 59, in load_file
+  File "import_file.pyc", line 61, in import_file
+  File ".\latest.py", line 12, in <module>
+ImportError: cannot import name animation
+Traceback (most recent call last):
+  File "GUI.py", line 202, in PlotShow
+  File "GUI.py", line 68, in __init__
+  File "GUI.py", line 32, in __init__
+  File "GUI.py", line 35, in extract_tracking
+  File "GUI.py", line 59, in load_file
+  File "import_file.pyc", line 61, in import_file
+  File ".\latest.py", line 12, in <module>
+ImportError: cannot import name animation
+Traceback (most recent call last):
+  File "GUI.py", line 202, in PlotShow
+  File "GUI.py", line 68, in __init__
+  File "GUI.py", line 32, in __init__
+  File "GUI.py", line 35, in extract_tracking
+  File "GUI.py", line 59, in load_file
+  File "import_file.pyc", line 61, in import_file
+  File ".\latest.py", line 12, in <module>
+ImportError: cannot import name animation
+Traceback (most recent call last):
+  File "GUI.py", line 202, in PlotShow
+  File "GUI.py", line 68, in __init__
+  File "GUI.py", line 32, in __init__
+  File "GUI.py", line 35, in extract_tracking
+  File "GUI.py", line 59, in load_file
+  File "import_file.pyc", line 61, in import_file
+  File ".\latest.py", line 18, in <module>
+ImportError: No module named Functions
+Traceback (most recent call last):
+  File "GUI.py", line 204, in PlotShow
+NameError: global name 'obstacle_pos' is not defined
+Traceback (most recent call last):
+  File "GUI.py", line 202, in PlotShow
+  File "GUI.py", line 68, in __init__
+  File "GUI.py", line 32, in __init__
+  File "GUI.py", line 35, in extract_tracking
+  File "GUI.py", line 59, in load_file
+  File "import_file.pyc", line 61, in import_file
+  File ".\latest.py", line 436, in <module>
+  File "excel.pyc", line 99, in excel_read
+  File "xlrd\__init__.pyc", line 394, in open_workbook
+IOError: [Errno 2] No such file or directory: './datafiles/Target_Positions.xlsx'
